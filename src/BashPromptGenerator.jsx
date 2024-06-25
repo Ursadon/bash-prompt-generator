@@ -48,7 +48,7 @@ const BashPromptExample = ({ name, colors }) => {
           "
           <TputColor code={colors[0]} />\u
           <TputColor code={colors[1]} />@
-          <TputColor code={colors[2]} />\h <TputColor code={colors[3]} />\w <TputReset />$ "
+          <TputColor code={colors[2]} />\h <TputColor code={colors[3]} />\w <TputReset />\\$ "
         </span>
       </code>
 
@@ -59,7 +59,7 @@ const BashPromptExample = ({ name, colors }) => {
           "
           <AnsiColor code={colors[0]} />\u
           <AnsiColor code={colors[1]} />@
-          <AnsiColor code={colors[2]} />\h <AnsiColor code={colors[3]} />\w <AnsiReset />$ "
+          <AnsiColor code={colors[2]} />\h <AnsiColor code={colors[3]} />\w <AnsiReset />\\$ "
         </span>
       </code>
     </div>
@@ -181,7 +181,7 @@ function BashPromptGenerator() {
                 "
                 <TputColor code={colors[0]} />\u
                 <TputColor code={colors[1]} />@
-                <TputColor code={colors[2]} />\h <TputColor code={colors[3]} />\w <TputReset />$ "
+                <TputColor code={colors[2]} />\h <TputColor code={colors[3]} />\w <TputReset />\\$ "
               </span>
             </code>
           </div>
@@ -203,7 +203,7 @@ function BashPromptGenerator() {
               "
               <TputColor code={colors[0]} />\u
               <TputColor code={colors[1]} />@
-              <TputColor code={colors[2]} />\h <TputColor code={colors[3]} />\w <TputReset />$ "
+              <TputColor code={colors[2]} />\h <TputColor code={colors[3]} />\w <TputReset />\\$ "
             </span>
           </code>
           <code className="prompt-ps1-ansi">
@@ -213,7 +213,7 @@ function BashPromptGenerator() {
               "
               <AnsiColor code={colors[0]} />\u
               <AnsiColor code={colors[1]} />@
-              <AnsiColor code={colors[2]} />\h <AnsiColor code={colors[3]} />\w <AnsiReset />$ "
+              <AnsiColor code={colors[2]} />\h <AnsiColor code={colors[3]} />\w <AnsiReset />\\$ "
             </span>
           </code>
           <p>
